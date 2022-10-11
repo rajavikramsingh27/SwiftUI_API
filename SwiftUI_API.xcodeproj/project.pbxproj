@@ -27,6 +27,7 @@
 		F6C8963B28F2FF1900957D64 /* ButtonCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C8963A28F2FF1900957D64 /* ButtonCustom.swift */; };
 		F6C8963E28F3262C00957D64 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C8963D28F3262C00957D64 /* ImagePickerView.swift */; };
 		F6C8964028F326C500957D64 /* GlobalUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C8963F28F326C500957D64 /* GlobalUI.swift */; };
+		F6EF751128F5D1E20062072D /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EF751028F5D1E20062072D /* Loader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		F6C8963A28F2FF1900957D64 /* ButtonCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCustom.swift; sourceTree = "<group>"; };
 		F6C8963D28F3262C00957D64 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
 		F6C8963F28F326C500957D64 /* GlobalUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalUI.swift; sourceTree = "<group>"; };
+		F6EF751028F5D1E20062072D /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 				F64C663E28F3DA3F00E2C49C /* ViewTwo.swift */,
 				F64C664028F3E5B300E2C49C /* NavBar.swift */,
 				F64C664228F3F29A00E2C49C /* NavBarLarge.swift */,
+				F6EF751028F5D1E20062072D /* Loader.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -358,6 +361,7 @@
 				F6C8962F28F2999900957D64 /* Api.swift in Sources */,
 				F6C895FE28F2952B00957D64 /* SwiftUI_APIApp.swift in Sources */,
 				F64C664528F405C100E2C49C /* StatusBarController.swift in Sources */,
+				F6EF751128F5D1E20062072D /* Loader.swift in Sources */,
 				F6C8963128F2A2EC00957D64 /* SignUp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
