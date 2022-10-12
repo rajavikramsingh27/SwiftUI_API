@@ -1,0 +1,1102 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05DBACBC34F3284F06673711851EAC1A /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 5FD242B00FAF7F64E742D1E9D2D20AD3 /* Data */; };
+		15D3E2CA3E7BC6AE263A9D80622318B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		235753E1964888C68DA0D95861369860 /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1A9F56171C17A5399EFF25823129F8 /* NibView.swift */; };
+		3E3CC6D7CF95BB4B661D6038288185C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3EF1A763ACF331D107369FE490388F62 /* CountryPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49055CBB4703B1712762D6821653A208 /* CountryPickerView.xib */; };
+		52AAFAE075BE27ECA0ADF781A9A2E351 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220F19E9DB93C5552CEF0DB7C7FE85C7 /* Bundle.swift */; };
+		625CBB651939AAD41F872AF7D1888F63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7ADEAC1BFEBFCF1CADF1C253537F1394 /* CountryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCD2B99CC6412D4C1D857F0033C3944 /* CountryPickerView.swift */; };
+		7BAE99FA1D2E2C7D903587E67BC9B593 /* CountryPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B0906021DB8E7D730C3E6C0EB9FC0 /* CountryPickerViewController.swift */; };
+		81A18089AB8026183CB27BD0F4CFDBF3 /* CountryPickerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAB5864250CD6DE0A11E772A5346FF08 /* CountryPickerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		827542C01CF865F134E74BEFDA513C96 /* CountryPickerView-CountryPickerView_CountryPickerView in Resources */ = {isa = PBXBuildFile; fileRef = 920624790A09310F9E506BCF1D4CC9E7 /* CountryPickerView-CountryPickerView_CountryPickerView */; };
+		86894A3AC43BDEBC7523D57DF1A07FCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		941B70D1D9818C99819B990A685F5DA9 /* Delegate+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC463E5DE2EB98AFD5126392324B0A2 /* Delegate+DataSource.swift */; };
+		94B15C7B5EF7DB43C094406A6BD4EF21 /* Pods-SwiftUI_API-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 475859A6046AA550C14FCC0784A3A270 /* Pods-SwiftUI_API-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD677B4BE46DE9F6FF3C5FEC9A11D4E4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9967B9BFB63AF3DDB769803093478C94 /* Extensions.swift */; };
+		B80949976A1699437B7887E21EBA2ECC /* Pods-SwiftUI_API-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4774D285C78DA4C8BD4D8F9215554A /* Pods-SwiftUI_API-dummy.m */; };
+		CD43947A37F966C427B0BCE68C37AE03 /* Pods-SwiftUI_API-SwiftUI_APIUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A077FB6EEFF3EF3F14C3674E3ECB8677 /* Pods-SwiftUI_API-SwiftUI_APIUITests-dummy.m */; };
+		D0046BC73932314AB156C77B565B3A5D /* Pods-SwiftUI_APITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A66339859ED9179A461792D33E4C58D /* Pods-SwiftUI_APITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D35A6E5D62007A43CF389747C38178BE /* Pods-SwiftUI_API-SwiftUI_APIUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4C4555FF717E29C1A17F0A04B8A591F /* Pods-SwiftUI_API-SwiftUI_APIUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD35B1959A8AD92E9C9FB37CE1844C36 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 27BCD9A50EC95E8F044E6160607FCCA7 /* Images */; };
+		DF2D69AAD6AA394C171E8BE866B474AA /* CountryPickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D81C1E8AE56E802F40DE29B24F8422 /* CountryPickerView-dummy.m */; };
+		EF0FC654AC2D9FD894AD677CD7586C56 /* Pods-SwiftUI_APITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E9DE23B54F28E11A8C4CDFDF733CB6 /* Pods-SwiftUI_APITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07C200365376D56ECA67913C95EB0E86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81AA88F2453B4A0E544BF0FB08E13D87;
+			remoteInfo = CountryPickerView;
+		};
+		BA33DEA98D3C42D95867B4B797998281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A3481BF9443B19ACC48F360B3B61D25;
+			remoteInfo = "Pods-SwiftUI_API";
+		};
+		C81EB71E1D0442C897FECA7AEBE39726 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81AA88F2453B4A0E544BF0FB08E13D87;
+			remoteInfo = CountryPickerView;
+		};
+		FF94CCDE8FFBF47909274381C4F880D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43E53E03FD1BE73C8433078A971781F1;
+			remoteInfo = "CountryPickerView-CountryPickerView_CountryPickerView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0349346CB56D01742968FE328F79E6C6 /* Pods-SwiftUI_API-SwiftUI_APIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUI_API-SwiftUI_APIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0E530D488D2A64D19961AAF5A334A853 /* Pods-SwiftUI_API */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwiftUI_API"; path = Pods_SwiftUI_API.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1055D3602D0E66592EFD0CAA2B72FE52 /* Pods-SwiftUI_API-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftUI_API-Info.plist"; sourceTree = "<group>"; };
+		10AEC907A7E202EE0FF1C63B9D636047 /* Pods-SwiftUI_API-SwiftUI_APIUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftUI_API-SwiftUI_APIUITests-Info.plist"; sourceTree = "<group>"; };
+		1B1A9F56171C17A5399EFF25823129F8 /* NibView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibView.swift; path = CountryPickerView/NibView.swift; sourceTree = "<group>"; };
+		220F19E9DB93C5552CEF0DB7C7FE85C7 /* Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bundle.swift; path = CountryPickerView/Bundle.swift; sourceTree = "<group>"; };
+		27BCD9A50EC95E8F044E6160607FCCA7 /* Images */ = {isa = PBXFileReference; includeInIndex = 1; name = Images; path = CountryPickerView/Resources/Images; sourceTree = "<group>"; };
+		2BCD2B99CC6412D4C1D857F0033C3944 /* CountryPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountryPickerView.swift; path = CountryPickerView/CountryPickerView.swift; sourceTree = "<group>"; };
+		2DAAD16E36F3CDAEEBE4F6044775721C /* Pods-SwiftUI_API-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftUI_API-frameworks.sh"; sourceTree = "<group>"; };
+		304C290C1334A26A390347F80033F6FD /* Pods-SwiftUI_APITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftUI_APITests.modulemap"; sourceTree = "<group>"; };
+		3C6D92FADF8408039F3138257A89B93B /* Pods-SwiftUI_APITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUI_APITests.release.xcconfig"; sourceTree = "<group>"; };
+		475859A6046AA550C14FCC0784A3A270 /* Pods-SwiftUI_API-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftUI_API-umbrella.h"; sourceTree = "<group>"; };
+		49055CBB4703B1712762D6821653A208 /* CountryPickerView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CountryPickerView.xib; path = CountryPickerView/Resources/CountryPickerView.xib; sourceTree = "<group>"; };
+		4F635F93C79A269699D840F94E0946E5 /* Pods-SwiftUI_API-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftUI_API-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5A66339859ED9179A461792D33E4C58D /* Pods-SwiftUI_APITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftUI_APITests-umbrella.h"; sourceTree = "<group>"; };
+		5C962AB333BD9E0017F66993BB1D2039 /* Pods-SwiftUI_APITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftUI_APITests-Info.plist"; sourceTree = "<group>"; };
+		5FD242B00FAF7F64E742D1E9D2D20AD3 /* Data */ = {isa = PBXFileReference; includeInIndex = 1; name = Data; path = CountryPickerView/Resources/Data; sourceTree = "<group>"; };
+		60FCB8935FFBE3B809F30CEE1D24D98D /* Pods-SwiftUI_API-SwiftUI_APIUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftUI_API-SwiftUI_APIUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6511155669CBA3587FA19B1F94DEF222 /* CountryPickerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CountryPickerView.debug.xcconfig; sourceTree = "<group>"; };
+		6B41C0051021E00061FAA75F0E8A7996 /* CountryPickerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CountryPickerView.release.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7CC463E5DE2EB98AFD5126392324B0A2 /* Delegate+DataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Delegate+DataSource.swift"; path = "CountryPickerView/Delegate+DataSource.swift"; sourceTree = "<group>"; };
+		8182E58FD9CD81B644D001BFA3510857 /* Pods-SwiftUI_APITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUI_APITests.debug.xcconfig"; sourceTree = "<group>"; };
+		86D98BFA7110FE2AE1F4C22A9C341F06 /* Pods-SwiftUI_APITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwiftUI_APITests"; path = Pods_SwiftUI_APITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4B0906021DB8E7D730C3E6C0EB9FC0 /* CountryPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountryPickerViewController.swift; path = CountryPickerView/CountryPickerViewController.swift; sourceTree = "<group>"; };
+		920624790A09310F9E506BCF1D4CC9E7 /* CountryPickerView-CountryPickerView_CountryPickerView */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "CountryPickerView-CountryPickerView_CountryPickerView"; path = CountryPickerView_CountryPickerView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9328AF8CD7E00A2980ADE6C9A80A84C1 /* Pods-SwiftUI_API-SwiftUI_APIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUI_API-SwiftUI_APIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		95F6C046CB55DD3A52590E259B9294A6 /* Pods-SwiftUI_API-SwiftUI_APIUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftUI_API-SwiftUI_APIUITests.modulemap"; sourceTree = "<group>"; };
+		96DA27F422E39536E76698021E01276A /* Pods-SwiftUI_API-SwiftUI_APIUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftUI_API-SwiftUI_APIUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		98E9DE23B54F28E11A8C4CDFDF733CB6 /* Pods-SwiftUI_APITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftUI_APITests-dummy.m"; sourceTree = "<group>"; };
+		9967B9BFB63AF3DDB769803093478C94 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = CountryPickerView/Extensions.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A077FB6EEFF3EF3F14C3674E3ECB8677 /* Pods-SwiftUI_API-SwiftUI_APIUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftUI_API-SwiftUI_APIUITests-dummy.m"; sourceTree = "<group>"; };
+		A22A4A96A89A20BB340C0B18C393D026 /* Pods-SwiftUI_API.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUI_API.release.xcconfig"; sourceTree = "<group>"; };
+		AAD74660C39A4FA54B2F9B75BBD51D6C /* ResourceBundle-CountryPickerView_CountryPickerView-CountryPickerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CountryPickerView_CountryPickerView-CountryPickerView-Info.plist"; sourceTree = "<group>"; };
+		B042242D4B10B5807280E2D0579BD9A2 /* CountryPickerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CountryPickerView-prefix.pch"; sourceTree = "<group>"; };
+		B4C4555FF717E29C1A17F0A04B8A591F /* Pods-SwiftUI_API-SwiftUI_APIUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftUI_API-SwiftUI_APIUITests-umbrella.h"; sourceTree = "<group>"; };
+		BB4774D285C78DA4C8BD4D8F9215554A /* Pods-SwiftUI_API-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftUI_API-dummy.m"; sourceTree = "<group>"; };
+		BBB06A9BBD09037D19063FD04973D05A /* Pods-SwiftUI_APITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftUI_APITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C2C0B89C2A38AE26C0B1E8CDB3A25BBE /* Pods-SwiftUI_API-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftUI_API-acknowledgements.plist"; sourceTree = "<group>"; };
+		C3A8A6C9F3CAC88E3CA254A132F26D9D /* Pods-SwiftUI_API-SwiftUI_APIUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwiftUI_API-SwiftUI_APIUITests"; path = Pods_SwiftUI_API_SwiftUI_APIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D81C1E8AE56E802F40DE29B24F8422 /* CountryPickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CountryPickerView-dummy.m"; sourceTree = "<group>"; };
+		CB84BD0B3E4A33EEF6ED76EAA312B445 /* Pods-SwiftUI_API.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftUI_API.modulemap"; sourceTree = "<group>"; };
+		D3573E07DD898A28BDA50065895B9642 /* Pods-SwiftUI_API.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftUI_API.debug.xcconfig"; sourceTree = "<group>"; };
+		D47E26C5DABC4EEA9E2CA6BDA6C733D0 /* Pods-SwiftUI_API-SwiftUI_APIUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftUI_API-SwiftUI_APIUITests-frameworks.sh"; sourceTree = "<group>"; };
+		D58E736356D48E0A1ACAAE5F7489E22B /* CountryPickerView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CountryPickerView; path = CountryPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E591FF35C4C10DE44F463635A36F87A4 /* CountryPickerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CountryPickerView-Info.plist"; sourceTree = "<group>"; };
+		EAB5864250CD6DE0A11E772A5346FF08 /* CountryPickerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CountryPickerView-umbrella.h"; sourceTree = "<group>"; };
+		F361A60B3BAA0A7C6C56A758A91E8AEB /* CountryPickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CountryPickerView.modulemap; sourceTree = "<group>"; };
+		FD7341161D5DAFDEF2E7882E7EEDB8BF /* Pods-SwiftUI_APITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftUI_APITests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42C4A9725EB5DDFC34E61821D18F43D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				625CBB651939AAD41F872AF7D1888F63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B5D84AA5889EA243490641D72929F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86894A3AC43BDEBC7523D57DF1A07FCA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1703EDFBDF3033144160CAA00CDC5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E3CC6D7CF95BB4B661D6038288185C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE38AB0AA167B377A9CEBB8BEA05499A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D3E2CA3E7BC6AE263A9D80622318B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD376517199155E0CC0173814F23FB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ECD1E25618F35C099E4E67B90A54539 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9399F102086B3F9F11374B1D8FD411AC /* CountryPickerView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1251BEFCBBB06F2EE69DD4C453A2AB35 /* Pods-SwiftUI_API */ = {
+			isa = PBXGroup;
+			children = (
+				CB84BD0B3E4A33EEF6ED76EAA312B445 /* Pods-SwiftUI_API.modulemap */,
+				4F635F93C79A269699D840F94E0946E5 /* Pods-SwiftUI_API-acknowledgements.markdown */,
+				C2C0B89C2A38AE26C0B1E8CDB3A25BBE /* Pods-SwiftUI_API-acknowledgements.plist */,
+				BB4774D285C78DA4C8BD4D8F9215554A /* Pods-SwiftUI_API-dummy.m */,
+				2DAAD16E36F3CDAEEBE4F6044775721C /* Pods-SwiftUI_API-frameworks.sh */,
+				1055D3602D0E66592EFD0CAA2B72FE52 /* Pods-SwiftUI_API-Info.plist */,
+				475859A6046AA550C14FCC0784A3A270 /* Pods-SwiftUI_API-umbrella.h */,
+				D3573E07DD898A28BDA50065895B9642 /* Pods-SwiftUI_API.debug.xcconfig */,
+				A22A4A96A89A20BB340C0B18C393D026 /* Pods-SwiftUI_API.release.xcconfig */,
+			);
+			name = "Pods-SwiftUI_API";
+			path = "Target Support Files/Pods-SwiftUI_API";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		66042C6E462A22C8331507DC12E10FE8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1251BEFCBBB06F2EE69DD4C453A2AB35 /* Pods-SwiftUI_API */,
+				D65648B2AABCC11ED7C51F5208A59B18 /* Pods-SwiftUI_API-SwiftUI_APIUITests */,
+				D3E29ADA0B3C31540F2E5856759B9D44 /* Pods-SwiftUI_APITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6C0349720D0580FBCE3A54489498AEDA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				49055CBB4703B1712762D6821653A208 /* CountryPickerView.xib */,
+				5FD242B00FAF7F64E742D1E9D2D20AD3 /* Data */,
+				27BCD9A50EC95E8F044E6160607FCCA7 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		74C393BD0282491C789A0BA3F5B6DE7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D58E736356D48E0A1ACAAE5F7489E22B /* CountryPickerView */,
+				920624790A09310F9E506BCF1D4CC9E7 /* CountryPickerView-CountryPickerView_CountryPickerView */,
+				0E530D488D2A64D19961AAF5A334A853 /* Pods-SwiftUI_API */,
+				C3A8A6C9F3CAC88E3CA254A132F26D9D /* Pods-SwiftUI_API-SwiftUI_APIUITests */,
+				86D98BFA7110FE2AE1F4C22A9C341F06 /* Pods-SwiftUI_APITests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9399F102086B3F9F11374B1D8FD411AC /* CountryPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				220F19E9DB93C5552CEF0DB7C7FE85C7 /* Bundle.swift */,
+				2BCD2B99CC6412D4C1D857F0033C3944 /* CountryPickerView.swift */,
+				8B4B0906021DB8E7D730C3E6C0EB9FC0 /* CountryPickerViewController.swift */,
+				7CC463E5DE2EB98AFD5126392324B0A2 /* Delegate+DataSource.swift */,
+				9967B9BFB63AF3DDB769803093478C94 /* Extensions.swift */,
+				1B1A9F56171C17A5399EFF25823129F8 /* NibView.swift */,
+				6C0349720D0580FBCE3A54489498AEDA /* Resources */,
+				A10C9D31C8E9DDD1AED7A3B4ACC1439C /* Support Files */,
+			);
+			name = CountryPickerView;
+			path = CountryPickerView;
+			sourceTree = "<group>";
+		};
+		A10C9D31C8E9DDD1AED7A3B4ACC1439C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F361A60B3BAA0A7C6C56A758A91E8AEB /* CountryPickerView.modulemap */,
+				C5D81C1E8AE56E802F40DE29B24F8422 /* CountryPickerView-dummy.m */,
+				E591FF35C4C10DE44F463635A36F87A4 /* CountryPickerView-Info.plist */,
+				B042242D4B10B5807280E2D0579BD9A2 /* CountryPickerView-prefix.pch */,
+				EAB5864250CD6DE0A11E772A5346FF08 /* CountryPickerView-umbrella.h */,
+				6511155669CBA3587FA19B1F94DEF222 /* CountryPickerView.debug.xcconfig */,
+				6B41C0051021E00061FAA75F0E8A7996 /* CountryPickerView.release.xcconfig */,
+				AAD74660C39A4FA54B2F9B75BBD51D6C /* ResourceBundle-CountryPickerView_CountryPickerView-CountryPickerView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CountryPickerView";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0ECD1E25618F35C099E4E67B90A54539 /* Pods */,
+				74C393BD0282491C789A0BA3F5B6DE7E /* Products */,
+				66042C6E462A22C8331507DC12E10FE8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3E29ADA0B3C31540F2E5856759B9D44 /* Pods-SwiftUI_APITests */ = {
+			isa = PBXGroup;
+			children = (
+				304C290C1334A26A390347F80033F6FD /* Pods-SwiftUI_APITests.modulemap */,
+				BBB06A9BBD09037D19063FD04973D05A /* Pods-SwiftUI_APITests-acknowledgements.markdown */,
+				FD7341161D5DAFDEF2E7882E7EEDB8BF /* Pods-SwiftUI_APITests-acknowledgements.plist */,
+				98E9DE23B54F28E11A8C4CDFDF733CB6 /* Pods-SwiftUI_APITests-dummy.m */,
+				5C962AB333BD9E0017F66993BB1D2039 /* Pods-SwiftUI_APITests-Info.plist */,
+				5A66339859ED9179A461792D33E4C58D /* Pods-SwiftUI_APITests-umbrella.h */,
+				8182E58FD9CD81B644D001BFA3510857 /* Pods-SwiftUI_APITests.debug.xcconfig */,
+				3C6D92FADF8408039F3138257A89B93B /* Pods-SwiftUI_APITests.release.xcconfig */,
+			);
+			name = "Pods-SwiftUI_APITests";
+			path = "Target Support Files/Pods-SwiftUI_APITests";
+			sourceTree = "<group>";
+		};
+		D65648B2AABCC11ED7C51F5208A59B18 /* Pods-SwiftUI_API-SwiftUI_APIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95F6C046CB55DD3A52590E259B9294A6 /* Pods-SwiftUI_API-SwiftUI_APIUITests.modulemap */,
+				60FCB8935FFBE3B809F30CEE1D24D98D /* Pods-SwiftUI_API-SwiftUI_APIUITests-acknowledgements.markdown */,
+				96DA27F422E39536E76698021E01276A /* Pods-SwiftUI_API-SwiftUI_APIUITests-acknowledgements.plist */,
+				A077FB6EEFF3EF3F14C3674E3ECB8677 /* Pods-SwiftUI_API-SwiftUI_APIUITests-dummy.m */,
+				D47E26C5DABC4EEA9E2CA6BDA6C733D0 /* Pods-SwiftUI_API-SwiftUI_APIUITests-frameworks.sh */,
+				10AEC907A7E202EE0FF1C63B9D636047 /* Pods-SwiftUI_API-SwiftUI_APIUITests-Info.plist */,
+				B4C4555FF717E29C1A17F0A04B8A591F /* Pods-SwiftUI_API-SwiftUI_APIUITests-umbrella.h */,
+				9328AF8CD7E00A2980ADE6C9A80A84C1 /* Pods-SwiftUI_API-SwiftUI_APIUITests.debug.xcconfig */,
+				0349346CB56D01742968FE328F79E6C6 /* Pods-SwiftUI_API-SwiftUI_APIUITests.release.xcconfig */,
+			);
+			name = "Pods-SwiftUI_API-SwiftUI_APIUITests";
+			path = "Target Support Files/Pods-SwiftUI_API-SwiftUI_APIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3AF50942986B817DE651252353F2505B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0046BC73932314AB156C77B565B3A5D /* Pods-SwiftUI_APITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42D9676C51792C664825A08B6D1360C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35A6E5D62007A43CF389747C38178BE /* Pods-SwiftUI_API-SwiftUI_APIUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98C75916F56443B6EF10957A5FF3802B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B15C7B5EF7DB43C094406A6BD4EF21 /* Pods-SwiftUI_API-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B90056E3BEA9FB5D23E27B382191DECC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A18089AB8026183CB27BD0F4CFDBF3 /* CountryPickerView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		29F6AA5E6DEF22F0F09193EF116784F7 /* Pods-SwiftUI_APITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE979F293BD57D8C93EDE71DD010984B /* Build configuration list for PBXNativeTarget "Pods-SwiftUI_APITests" */;
+			buildPhases = (
+				3AF50942986B817DE651252353F2505B /* Headers */,
+				850F2C441A5270B24648AD8130C8755A /* Sources */,
+				5B5D84AA5889EA243490641D72929F9E /* Frameworks */,
+				C6456DFD9F225BB897832EC19577DB7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FACDA9597AFA8779F71FC04C501C7930 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftUI_APITests";
+			productName = Pods_SwiftUI_APITests;
+			productReference = 86D98BFA7110FE2AE1F4C22A9C341F06 /* Pods-SwiftUI_APITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		43E53E03FD1BE73C8433078A971781F1 /* CountryPickerView-CountryPickerView_CountryPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C7E215CA107258ED8BEFFD5261FC9FF /* Build configuration list for PBXNativeTarget "CountryPickerView-CountryPickerView_CountryPickerView" */;
+			buildPhases = (
+				9A403D9410AD1A8DA57B63A2513BCF70 /* Sources */,
+				CDD376517199155E0CC0173814F23FB6 /* Frameworks */,
+				51A745806DD87EC23AEB8AEE021B833A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CountryPickerView-CountryPickerView_CountryPickerView";
+			productName = CountryPickerView_CountryPickerView;
+			productReference = 920624790A09310F9E506BCF1D4CC9E7 /* CountryPickerView-CountryPickerView_CountryPickerView */;
+			productType = "com.apple.product-type.bundle";
+		};
+		43F984C33EF577573ADA8606D45E8001 /* Pods-SwiftUI_API-SwiftUI_APIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A13012EA15E8DFBEBF5590B3B784EB89 /* Build configuration list for PBXNativeTarget "Pods-SwiftUI_API-SwiftUI_APIUITests" */;
+			buildPhases = (
+				42D9676C51792C664825A08B6D1360C6 /* Headers */,
+				D9DFEB3A3902D2B4003ADF1EB06D2AF3 /* Sources */,
+				AC1703EDFBDF3033144160CAA00CDC5E /* Frameworks */,
+				3F8472B603BF6709376776C9D1B8BF65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F6D090915D3931BB9E091E8B799D722 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftUI_API-SwiftUI_APIUITests";
+			productName = Pods_SwiftUI_API_SwiftUI_APIUITests;
+			productReference = C3A8A6C9F3CAC88E3CA254A132F26D9D /* Pods-SwiftUI_API-SwiftUI_APIUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		7A3481BF9443B19ACC48F360B3B61D25 /* Pods-SwiftUI_API */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5677AF4070D8AD19C299F44316C4B13 /* Build configuration list for PBXNativeTarget "Pods-SwiftUI_API" */;
+			buildPhases = (
+				98C75916F56443B6EF10957A5FF3802B /* Headers */,
+				ACF41F9E5CB719420EB85BCD70800AFB /* Sources */,
+				42C4A9725EB5DDFC34E61821D18F43D1 /* Frameworks */,
+				2B51906AEC5877140ABEA2AEB7EDF844 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6BE90CADC6EB08CA886B306FC365F75 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftUI_API";
+			productName = Pods_SwiftUI_API;
+			productReference = 0E530D488D2A64D19961AAF5A334A853 /* Pods-SwiftUI_API */;
+			productType = "com.apple.product-type.framework";
+		};
+		81AA88F2453B4A0E544BF0FB08E13D87 /* CountryPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06575BEB49E1F713C9E60F1CA7E39613 /* Build configuration list for PBXNativeTarget "CountryPickerView" */;
+			buildPhases = (
+				B90056E3BEA9FB5D23E27B382191DECC /* Headers */,
+				F6567B0878FA393F9278242AB645B572 /* Sources */,
+				BE38AB0AA167B377A9CEBB8BEA05499A /* Frameworks */,
+				B5FC880436BBF34A90E2DE935FFAEABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09677E0EDC8B7CB8EA04F3959BC1AE4E /* PBXTargetDependency */,
+			);
+			name = CountryPickerView;
+			productName = CountryPickerView;
+			productReference = D58E736356D48E0A1ACAAE5F7489E22B /* CountryPickerView */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 74C393BD0282491C789A0BA3F5B6DE7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81AA88F2453B4A0E544BF0FB08E13D87 /* CountryPickerView */,
+				43E53E03FD1BE73C8433078A971781F1 /* CountryPickerView-CountryPickerView_CountryPickerView */,
+				7A3481BF9443B19ACC48F360B3B61D25 /* Pods-SwiftUI_API */,
+				43F984C33EF577573ADA8606D45E8001 /* Pods-SwiftUI_API-SwiftUI_APIUITests */,
+				29F6AA5E6DEF22F0F09193EF116784F7 /* Pods-SwiftUI_APITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B51906AEC5877140ABEA2AEB7EDF844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8472B603BF6709376776C9D1B8BF65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51A745806DD87EC23AEB8AEE021B833A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF1A763ACF331D107369FE490388F62 /* CountryPickerView.xib in Resources */,
+				05DBACBC34F3284F06673711851EAC1A /* Data in Resources */,
+				DD35B1959A8AD92E9C9FB37CE1844C36 /* Images in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5FC880436BBF34A90E2DE935FFAEABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827542C01CF865F134E74BEFDA513C96 /* CountryPickerView-CountryPickerView_CountryPickerView in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6456DFD9F225BB897832EC19577DB7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		850F2C441A5270B24648AD8130C8755A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0FC654AC2D9FD894AD677CD7586C56 /* Pods-SwiftUI_APITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A403D9410AD1A8DA57B63A2513BCF70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF41F9E5CB719420EB85BCD70800AFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80949976A1699437B7887E21EBA2ECC /* Pods-SwiftUI_API-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9DFEB3A3902D2B4003ADF1EB06D2AF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD43947A37F966C427B0BCE68C37AE03 /* Pods-SwiftUI_API-SwiftUI_APIUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6567B0878FA393F9278242AB645B572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52AAFAE075BE27ECA0ADF781A9A2E351 /* Bundle.swift in Sources */,
+				7ADEAC1BFEBFCF1CADF1C253537F1394 /* CountryPickerView.swift in Sources */,
+				DF2D69AAD6AA394C171E8BE866B474AA /* CountryPickerView-dummy.m in Sources */,
+				7BAE99FA1D2E2C7D903587E67BC9B593 /* CountryPickerViewController.swift in Sources */,
+				941B70D1D9818C99819B990A685F5DA9 /* Delegate+DataSource.swift in Sources */,
+				AD677B4BE46DE9F6FF3C5FEC9A11D4E4 /* Extensions.swift in Sources */,
+				235753E1964888C68DA0D95861369860 /* NibView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09677E0EDC8B7CB8EA04F3959BC1AE4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CountryPickerView-CountryPickerView_CountryPickerView";
+			target = 43E53E03FD1BE73C8433078A971781F1 /* CountryPickerView-CountryPickerView_CountryPickerView */;
+			targetProxy = FF94CCDE8FFBF47909274381C4F880D0 /* PBXContainerItemProxy */;
+		};
+		1F6D090915D3931BB9E091E8B799D722 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CountryPickerView;
+			target = 81AA88F2453B4A0E544BF0FB08E13D87 /* CountryPickerView */;
+			targetProxy = 07C200365376D56ECA67913C95EB0E86 /* PBXContainerItemProxy */;
+		};
+		D6BE90CADC6EB08CA886B306FC365F75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CountryPickerView;
+			target = 81AA88F2453B4A0E544BF0FB08E13D87 /* CountryPickerView */;
+			targetProxy = C81EB71E1D0442C897FECA7AEBE39726 /* PBXContainerItemProxy */;
+		};
+		FACDA9597AFA8779F71FC04C501C7930 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SwiftUI_API";
+			target = 7A3481BF9443B19ACC48F360B3B61D25 /* Pods-SwiftUI_API */;
+			targetProxy = BA33DEA98D3C42D95867B4B797998281 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E786CD1594DFF60DFFEA813FFD442EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8182E58FD9CD81B644D001BFA3510857 /* Pods-SwiftUI_APITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftUI_APITests/Pods-SwiftUI_APITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftUI_APITests/Pods-SwiftUI_APITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B06852D68370F2648D8E26BABC0636A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0349346CB56D01742968FE328F79E6C6 /* Pods-SwiftUI_API-SwiftUI_APIUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftUI_API-SwiftUI_APIUITests/Pods-SwiftUI_API-SwiftUI_APIUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftUI_API-SwiftUI_APIUITests/Pods-SwiftUI_API-SwiftUI_APIUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4604C4561FF84FD5BE5A91E66C0174CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3573E07DD898A28BDA50065895B9642 /* Pods-SwiftUI_API.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftUI_API/Pods-SwiftUI_API-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftUI_API/Pods-SwiftUI_API.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		547DED12DBC0221370222A21B57003D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B41C0051021E00061FAA75F0E8A7996 /* CountryPickerView.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CountryPickerView";
+				IBSC_MODULE = CountryPickerView;
+				INFOPLIST_FILE = "Target Support Files/CountryPickerView/ResourceBundle-CountryPickerView_CountryPickerView-CountryPickerView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = CountryPickerView_CountryPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		AAB9C037B1091319690CFF0D6205573F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6511155669CBA3587FA19B1F94DEF222 /* CountryPickerView.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CountryPickerView";
+				IBSC_MODULE = CountryPickerView;
+				INFOPLIST_FILE = "Target Support Files/CountryPickerView/ResourceBundle-CountryPickerView_CountryPickerView-CountryPickerView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = CountryPickerView_CountryPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C7B9F94D76065318C32FA33A10BCCA6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9328AF8CD7E00A2980ADE6C9A80A84C1 /* Pods-SwiftUI_API-SwiftUI_APIUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftUI_API-SwiftUI_APIUITests/Pods-SwiftUI_API-SwiftUI_APIUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftUI_API-SwiftUI_APIUITests/Pods-SwiftUI_API-SwiftUI_APIUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C80F0AE4E4EE778C7AC673E1A9FE3140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6511155669CBA3587FA19B1F94DEF222 /* CountryPickerView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CountryPickerView/CountryPickerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CountryPickerView/CountryPickerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CountryPickerView/CountryPickerView.modulemap";
+				PRODUCT_MODULE_NAME = CountryPickerView;
+				PRODUCT_NAME = CountryPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D018751DEEA6B1578BA28D410BB058F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A22A4A96A89A20BB340C0B18C393D026 /* Pods-SwiftUI_API.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftUI_API/Pods-SwiftUI_API-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftUI_API/Pods-SwiftUI_API.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D27B903C02B6C0A86E29A87451CC0405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B41C0051021E00061FAA75F0E8A7996 /* CountryPickerView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CountryPickerView/CountryPickerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CountryPickerView/CountryPickerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CountryPickerView/CountryPickerView.modulemap";
+				PRODUCT_MODULE_NAME = CountryPickerView;
+				PRODUCT_NAME = CountryPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB2CC4B36E97B6F622120FC897EEA0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C6D92FADF8408039F3138257A89B93B /* Pods-SwiftUI_APITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftUI_APITests/Pods-SwiftUI_APITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftUI_APITests/Pods-SwiftUI_APITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06575BEB49E1F713C9E60F1CA7E39613 /* Build configuration list for PBXNativeTarget "CountryPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C80F0AE4E4EE778C7AC673E1A9FE3140 /* Debug */,
+				D27B903C02B6C0A86E29A87451CC0405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4214E6946993DF02ED98D89047C64016 /* Debug */,
+				CD85FD90473CFBE797E4264E7BBC70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C7E215CA107258ED8BEFFD5261FC9FF /* Build configuration list for PBXNativeTarget "CountryPickerView-CountryPickerView_CountryPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB9C037B1091319690CFF0D6205573F /* Debug */,
+				547DED12DBC0221370222A21B57003D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A13012EA15E8DFBEBF5590B3B784EB89 /* Build configuration list for PBXNativeTarget "Pods-SwiftUI_API-SwiftUI_APIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B9F94D76065318C32FA33A10BCCA6E /* Debug */,
+				2B06852D68370F2648D8E26BABC0636A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5677AF4070D8AD19C299F44316C4B13 /* Build configuration list for PBXNativeTarget "Pods-SwiftUI_API" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4604C4561FF84FD5BE5A91E66C0174CF /* Debug */,
+				D018751DEEA6B1578BA28D410BB058F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE979F293BD57D8C93EDE71DD010984B /* Build configuration list for PBXNativeTarget "Pods-SwiftUI_APITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E786CD1594DFF60DFFEA813FFD442EA /* Debug */,
+				EB2CC4B36E97B6F622120FC897EEA0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

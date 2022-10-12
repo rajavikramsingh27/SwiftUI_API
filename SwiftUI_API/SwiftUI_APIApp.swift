@@ -14,7 +14,8 @@ struct SwiftUI_APIApp: App {
 //            SignUp()
 //            ViewTwo()
 //            NavBar()
-            NavBarLarge()
+//            NavBarLarge()
+            LoginWithNumber()
         }
     }
 }
